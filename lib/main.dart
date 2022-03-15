@@ -263,7 +263,7 @@ class _HomeState extends State<Home> {
                                             ),
                                             SizedBox(height: 20),
                                             Text(
-                                              '- Python, HTML5, CSS3',
+                                              '- Dart, Flutter, Python',
                                               style: TextStyle(
                                                 color: Colors.grey[400],
                                                 fontFamily: 'LibreFrankling',
@@ -274,7 +274,18 @@ class _HomeState extends State<Home> {
                                               ),
                                             ),
                                             Text(
-                                              '- IntelliJ IDEA, Sublime Text, VS Code',
+                                              '- HTML5, CSS3',
+                                              style: TextStyle(
+                                                color: Colors.grey[400],
+                                                fontFamily: 'LibreFrankling',
+                                                fontSize: 18.0,
+                                                fontStyle: FontStyle.normal,
+                                                fontWeight: FontWeight.w300,
+                                                letterSpacing: 2.0,
+                                              ),
+                                            ),
+                                            Text(
+                                              '- Android Studio, VS Code',
                                               style: TextStyle(
                                                 color: Colors.grey[400],
                                                 fontFamily: 'LibreFrankling',
@@ -296,18 +307,7 @@ class _HomeState extends State<Home> {
                                               ),
                                             ),
                                             Text(
-                                              '- Figma',
-                                              style: TextStyle(
-                                                color: Colors.grey[400],
-                                                fontFamily: 'LibreFrankling',
-                                                fontSize: 18.0,
-                                                fontStyle: FontStyle.normal,
-                                                fontWeight: FontWeight.w300,
-                                                letterSpacing: 2.0,
-                                              ),
-                                            ),
-                                            Text(
-                                              '- Slack, Jira, Confluence',
+                                              '- Git, Slack, Jira, Confluence, Figma',
                                               style: TextStyle(
                                                 color: Colors.grey[400],
                                                 fontFamily: 'LibreFrankling',
