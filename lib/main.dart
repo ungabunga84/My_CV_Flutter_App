@@ -50,19 +50,29 @@ class _HomeState extends State<Home> {
         child: Column(
           children: <Widget>[
             CircleAvatar(
-                backgroundImage: AssetImage('assets/photo_2.jpg'), radius: 170),
+                backgroundImage: AssetImage('assets/photo_2.jpg'), radius: 140),
             SizedBox(height: 15),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+            Column(
               children: <Widget>[
-                Icon(Icons.phone, color: Colors.amber),
-                Text('  +375291222141', style: TextStyle(color: Colors.amber)),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.phone, color: Colors.amber),
+                    Text('  +48573966552',
+                        style: TextStyle(color: Colors.amber)),
+                  ],
+                ),
                 SizedBox(
                   width: 20,
                 ),
-                Icon(Icons.email, color: Colors.amber),
-                Text('  saskovets@outlook.com',
-                    style: TextStyle(color: Colors.amber))
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.email, color: Colors.amber),
+                    Text('  alexandersaskovets@gmail.com',
+                        style: TextStyle(color: Colors.amber))
+                  ],
+                )
               ],
             ),
             SizedBox(height: 20),
